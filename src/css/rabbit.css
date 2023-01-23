@@ -1,0 +1,22 @@
+#rabbit {
+  font-size: 50px;
+}
+
+#firecracker {
+  font-size: 60px;
+  transform: translate(0, 15px) rotate(45deg);
+}
+
+#bonk {
+  position: absolute;
+  font-size: 50px;
+  right: 5px;
+  z-index: 1;
+  visibility: hidden;
+}
+
+#main-char {
+  position: absolute;
+  left: 80px;
+  top: 0px;
+}

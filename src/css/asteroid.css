@@ -1,0 +1,14 @@
+.asteroid {
+  position: absolute;
+  font-size: 80px;
+  animation: spin 2s linear infinite;
+}
+
+@keyframes spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
